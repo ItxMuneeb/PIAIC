@@ -1,0 +1,6 @@
+x=input('Enter String = ')
+n=int(input('How many copies of String you need = '))
+
+a=x*n
+
+print(n,'copies of',x,'are =>',a)
