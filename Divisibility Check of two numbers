@@ -1,0 +1,9 @@
+x=int(input('Enter Numerator ='))
+y=int(input('Enter Denominator ='))
+
+a=x % y
+
+if a==0:
+    print('Number',x,'is Completely divisible by',y)
+else:
+    print('Number',x,'is not Completely divisible by',y)
