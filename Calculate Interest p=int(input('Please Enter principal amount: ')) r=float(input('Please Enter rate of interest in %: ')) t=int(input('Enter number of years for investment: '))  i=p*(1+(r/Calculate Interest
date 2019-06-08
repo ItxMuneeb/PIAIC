@@ -1,0 +1,7 @@
+p=int(input('Please Enter principal amount: '))
+r=float(input('Please Enter rate of interest in %: '))
+t=int(input('Enter number of years for investment: '))
+
+i=p*(1+(r/100)*t) 
+
+print('After',t,'years your principal amount',p,'over an interest rate of',r,'% will be',i)
