@@ -1,0 +1,5 @@
+h=int(input('Enter height in feet='))
+
+x=h*12*2.54  #feet to cm
+
+print('There are',x,'Cm in',h,'ft')
