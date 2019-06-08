@@ -1,0 +1,44 @@
+Name=input('Enter Name:\t')
+RN=input('Enter Roll No.:\t')
+a=int(input('Enter Marks for Maths:\t\t'))
+b=int(input('Enter Marks for Physics:\t'))
+c=int(input('Enter Marks for Chemistry:\t'))
+d=int(input('Enter Marks for English:\t'))
+e=int(input('Enter Marks for Computer:\t'))
+
+print('\n\t\tM  A  R  K S  S  H  E  E  T\n')
+print('\t\t\tP I A I C\n')
+print('*************************************************************')
+print('Name:\t\t',Name)
+print('Roll No.:\t',RN)
+print('*************************************************************')
+print('SUBJECTS\t\tOBTAINED MARKS\t\tTOTAL MARKS')
+print('-------------------------------------------------------------\n')
+print('Maths\t\t\t',a,'\t\t\t100')
+print('Physics\t\t\t',b,'\t\t\t100')
+print('Chemistry\t\t',c,'\t\t\t100')
+print('English\t\t\t',d,'\t\t\t100')
+print('Computer\t\t',e,'\t\t\t100')
+print('-------------------------------------------------------------')
+
+
+Total=(a+b+c+d+e)
+print('Total\t\t\t',Total,'\t\t\t500')
+print('*************************************************************')
+Percentage=(Total*100/500)
+
+print('\nTotal Marks=',Total,'\t|\tPercentage=',Percentage,'\n')
+ 
+if Percentage>=80 and Percentage<=100:
+    print('GRADE=\t"A+"')
+elif Percentage>=70:
+    print('GRADE=\t"A"')
+elif Percentage>=60:
+    print('GRADE=\t"B"')
+elif Percentage>=50:
+    print('GRADE=\t"C"')
+elif Percentage>=40:
+    print('GRADE=\t"D"')
+else:
+    print("Failed")
+print('*************************************************************')    
