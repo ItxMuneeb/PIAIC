@@ -1,0 +1,9 @@
+x=int(input('Enter 1st Date='))
+y=int(input('Enter 2nd Date='))
+
+if x<y:
+    a=y-x
+    print('Difference is',a,'Days')
+else:
+    a=(30-x)+y
+    print('Difference is',a,'Days')
