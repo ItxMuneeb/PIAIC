@@ -1,0 +1,12 @@
+x=input('Enter A Number=')
+a=str(x)
+c=[]
+
+z=0
+
+for y in x:
+    z += int(y)
+for b in a:
+    c.append(b)
+  
+print('Sum of',c,'is',z)
