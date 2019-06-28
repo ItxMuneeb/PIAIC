@@ -1,0 +1,37 @@
+with open("newfile.text","w") as marksheet:
+    marksheet.write('''Enter Name:	Muneeb Ur Rehman
+Enter Roll No.:	2016-EE-173
+Enter Marks for Maths:		92
+Enter Marks for Physics:	89
+Enter Marks for Chemistry:	89
+Enter Marks for English:	75
+Enter Marks for Computer:	80
+
+		M  A  R  K S  S  H  E  E  T
+
+			P I A I C
+
+*************************************************************
+Name:		 Muneeb Ur Rehman
+Roll No.:	 2016-EE-173
+*************************************************************
+SUBJECTS		OBTAINED MARKS		TOTAL MARKS
+-------------------------------------------------------------
+
+Maths			 92 			100
+Physics			 89 			100
+Chemistry		 89 			100
+English			 75 			100
+Computer		 80 			100
+-------------------------------------------------------------
+Total			 425 			500
+*************************************************************
+
+Total Marks= 425 	|	Percentage= 85.0 
+
+GRADE=	"A+"
+*************************************************************''')
+    
+with open("newfile.text","r") as marksheet:
+    text_of_file = marksheet.read()
+    print(text_of_file)    
